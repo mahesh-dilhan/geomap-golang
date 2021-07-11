@@ -14,8 +14,8 @@ func main() {
 		log.Fatalf("fatal error: %s", err)
 	}
 	r := &maps.DirectionsRequest{
-		Origin:      "Sydney",
-		Destination: "Perth",
+		Origin:      "Singapore",
+		Destination: "China",
 	}
 	route, _, err := c.Directions(context.Background(), r)
 	if err != nil {
